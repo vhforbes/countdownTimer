@@ -37,6 +37,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 5px 5px 5px 5px;
   margin-top: 10px;
+  width: 400px;
 }
 
 #days, #hours, #minutes, #seconds {
@@ -53,4 +54,31 @@ body {
   background-color: tomato;
   color: rgb(24, 24, 24);
   font-family: 'Orbitron', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #event-name {
+    width: 80%;
+    
+  }
+  
+  #date-input {
+    width: 80%;
+    height: 30px;
+  }
+
+  .grid-container {
+    width: 80%;
+  }
+  
+  #days, #hours, #minutes, #seconds {
+    font-size: 20px;
+    margin: 5px 15px 5px 15px;
+  }
+  
+  .btn {
+    width: 30%;
+  }
 }
