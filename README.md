@@ -34,11 +34,11 @@ zone.
 -   [X] User can see a warning message if the event name is blank.
 -   [X] User can see a warning message if the event date or time are incorrectly
 entered. 
--   [ ] User can see a warning message if the time until the event data and time
+-   [X] User can see a warning message if the time until the event data and time
 that has been entered would overflow the precision of the countdown timer.
--   [ ] User can click on the 'Start' button to see the countdown timer start
+-   [X] User can click on the 'Start' button to see the countdown timer start
 displaying the days, hours, minutes, and seconds until the event takes place.
--   [ ] User can see the elements in the countdown timer automatically
+-   [X] User can see the elements in the countdown timer automatically
 decrement. For example, when the remaining seconds count reaches 0 the remaining
 minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display. 
 
